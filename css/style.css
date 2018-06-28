@@ -1,8 +1,9 @@
 @font-face{
 
-font-family: 'EtelkaWidelight';
+font-family: 'PT Sans Narrow', sans-serif;
+/*font-family: 'EtelkaWidelight', sans-serif;*/
 
-src: url(../fonts/Etelka-Wide-Light-Pro_16189.ttf);
+/*src: url(../fonts/Etelka-Wide-Light-Pro_16189.ttf);*/
 
 font-weight: normal;
 
@@ -19,7 +20,8 @@ main {
 }
 
 body {
-	font-family: 'EtelkaWidelight';
+	font-family: 'PT Sans Narrow', sans-serif;
+/*	font-family: 'EtelkaWidelight';*/
 	font-size: 12px;
 	color: #424242;
 	max-width: 1200px;
@@ -154,7 +156,8 @@ i.fa.fa-envelope-o {
 }
 
 .order {
-	font-family: 'EtelkaWidelight';
+	font-family: 'PT Sans Narrow', sans-serif;
+/*	font-family: 'EtelkaWidelight';*/
 	width: 180px;
 	color: white;
 	background-color: rgba(251,70,20,1);
