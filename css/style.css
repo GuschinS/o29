@@ -13,7 +13,6 @@ font-style: normal;
 */
 @font-face {
 font-family: 'Etelka Wide Light Pro';
-src: url(../fonts/EtelkaWidelight.otf);
 src: url('EtelkaWideLightPro.eot');
 src: url('EtelkaWideLightPro.eot?#iefix') format('embedded-opentype'),
 url('EtelkaWideLightPro.woff') format('woff'),
