@@ -1,14 +1,26 @@
-@font-face{
+/*@font-face{*/
 
-font-family: 'PT Sans Narrow', sans-serif;
+/*font-family: 'PT Sans Narrow', sans-serif;*/
 /*font-family: 'EtelkaWidelight', sans-serif;*/
 
 /*src: url(../fonts/Etelka-Wide-Light-Pro_16189.ttf);*/
 
+/*
 font-weight: normal;
 
 font-style: normal;
 }
+*/
+@font-face {
+font-family: 'Etelka Ligh Prot';
+src: url('EtelkaLightPro.eot');
+src: url('EtelkaLightPro.eot?#iefix') format('embedded-opentype'),
+url('EtelkaLightPro.woff') format('woff'),
+url('EtelkaLightPro.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
 
 body,
 html,
@@ -20,8 +32,9 @@ main {
 }
 
 body {
-	font-family: 'PT Sans Narrow', sans-serif;
+/*	font-family: 'PT Sans Narrow', sans-serif;*/
 /*	font-family: 'EtelkaWidelight';*/
+	font-family: 'Etelka Ligh Prot';
 	font-size: 12px;
 	color: #424242;
 	max-width: 1200px;
@@ -156,8 +169,9 @@ i.fa.fa-envelope-o {
 }
 
 .order {
-	font-family: 'PT Sans Narrow', sans-serif;
+/*	font-family: 'PT Sans Narrow', sans-serif;*/
 /*	font-family: 'EtelkaWidelight';*/
+	font-family: 'Etelka Ligh Prot';
 	width: 180px;
 	color: white;
 	background-color: rgba(251,70,20,1);
