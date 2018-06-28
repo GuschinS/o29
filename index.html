@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>OMNICOMM ONLINE - Omnicomm - Котлас</title>
+	<meta name="description" content="Системы мониторинга транспорта и контроля расхода топлива. Тахографы. Карты водителя и предприятия">
+	<meta name="keywords" content="ГЛОНАСС в Котласе, GPS в Котласе, мониторинг транспорта в Котласе, контроль расхода топлива в Котласе, установка тахографа в Котласе, карта водителя в Котласе">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon_32x32.png" />
+<!--	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>-->
+</head>
+
+<body>
+	<header>
+		<div class="logo">
+			<a href="http://omnicomm29.ru"><img class="logo" src="img/logo_sg.png" alt="omnicomm"></a>
+		</div>
+		<div class="logo_2">
+			<a href="http://omnicomm29.ru"><img class="logo_2" src="img/logo.png" alt="omnicomm"></a>
+			        <a id="menu" class="header__menu">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z"/>
+          </svg>
+        </a>
+		</div>
+		<div class="contacts">
+<!--
+			<div class="cont adres">
+				<span>Официальный дилер в Архангельской области</span>
+			</div>
+-->
+			<div class="cont tel">
+				<a href="tel:+7(81837)4-00-80"><i class="fa fa-phone"></i>+7(81837)4-00-80</a>
+			</div>
+			<div class="cont tel_2">
+				<a href="tel:+79216753875"><i class="fa fa-phone"></i>+7(921)675-38-75</a>
+			</div>
+			<div class="cont mail">
+
+				<a href="mailto:info@omnicomm-online.pl"><i class="fa fa-envelope-o"></i>info@omnicomm-online.pl</a>
+			</div>
+		</div>
+	</header>
+	<nav class="nav">
+		<ul class="nav__list">
+			<li class="nav__item"><a href="#">omnicomm online</a></li>
+			<li class="nav__item"><a href="#">о нас</a></li>
+			<li class="nav__item"><a href="#">как это работает</a></li>
+			<li class="nav__item"><a href="#">тахографы</a></li>
+			<li class="nav__item"><a href="#">допог</a></li>
+			<li class="nav__item"><a href="#">контакты</a></li>
+		</ul>
+	</nav>
+	<main>
+	<section class="img_truck">
+		<img class="truck" src="img/truck_1200.jpg" alt="truck">
+		<img class="truck_650" src="img/truck_650.jpg" alt="truck">
+		<div class="message">
+			<h1>Экономьте до 30% топлива с системой OMNICOMM.</h1>
+			<button class=order>заказать</button>
+		</div>
+		<div class="online">
+			<div class="description">
+				<a class="online" href="http://online.omnicomm.ru/new-design.html"><img src="img/oo.png" alt="omnicomm_online"></a>
+				<p><strong>OMNICOMM ONLINE</strong> позволяет контролировать Ваш транспорт и Ваших водителей в реальном времени.</p>
+				<ul>
+					<li>
+						<span>Местоположение</span>
+					</li>
+					<li>
+						<span>Маршрут</span>
+					</li>
+					<li>
+						<span>Расход топлива. Заправки и сливы</span>
+					</li>
+					<li>
+						<span>Работа водителей</span>
+					</li>
+					<li>
+						<span>Уведомления</span>
+					</li>
+					<li>
+						<span>Техническая поддержка онлайн</span>
+					</li>
+				</ul>
+				<div class="program">
+					<a href="https://itunes.apple.com/ru/app/omnicomm-for-iphone/id1071229287"><img src="img/appstore.png" alt="appstore"></a>
+					<a href="https://play.google.com/store/apps/details?id=ru.digipeople.omnicomm"><img src="img/gplay.png" alt="google_play"></a>
+				</div>
+			</div>
+			<div class="youtube">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/uROrGj3MOC4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
+		</div>
+	</section>
+		<footer>
+			<a href="http://facebook.com"><i class="fa fa-facebook-square" style="color: white"></i></a>
+		</footer>
+	</main>
+	    <script>
+      /*
+       * Open the drawer when the menu ison is clicked.
+       */
+      const menu = document.querySelector('#menu');
+      const main = document.querySelector('main');
+      const drawer = document.querySelector('.nav');
+
+      menu.addEventListener('click', function(e) {
+        drawer.classList.toggle('open');
+        e.stopPropagation();
+      });
+      main.addEventListener('click', function() {
+        drawer.classList.remove('open');
+      });
+
+    </script>
+</body>
+
+</html>

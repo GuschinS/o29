@@ -1,0 +1,116 @@
+.header__menu {
+	display: none;
+}
+
+@media screen and (min-width: 879px){
+	div.message {
+		position: absolute;
+		left: 100px;
+		top: 200px;
+	}
+}
+
+@media screen and (max-width: 880px) {
+	img.logo_2 {
+		display: none;
+	}
+
+	.nav {
+		z-index: 10;
+		background-color: #fff;
+		width: 350px;
+		position: absolute;
+		/* This trasform moves the drawer off canvas. */
+		-webkit-transform: translate(-350px, 0);
+		transform: translate(-350px, 0);
+		/* Optionally, we animate the drawer. */
+		transition: transform 0.3s ease;
+	}
+
+	.nav.open {
+		-webkit-transform: translate(0, 0);
+		transform: translate(0, 0);
+	}
+
+	.nav__item {
+		display: list-item;
+		border-bottom: 1px solid #E0E0E0;
+		width: 100%;
+		text-align: left;
+		padding: 3% 3%;
+	}
+
+	.header__menu {
+		display: inline-block;
+		position: absolute;
+		right: 0;
+		padding: 1em;
+	}
+
+	.header__menu svg {
+		width: 32px;
+		fill: #002855;
+	}
+
+	.contacts a,
+	.contacts span {
+		font-size: 1em;
+	}
+
+/*
+	div.message {
+		position: absolute;
+		top: 100px;
+	}
+*/
+}
+
+@media screen and (max-width: 740px){
+	div.message h1,
+	.order{
+		font-size: 0.9em;
+	}
+	div.description,
+	div.youtube {
+		width: 100%;
+	}
+/*
+		div.message {
+		position: absolute;
+		top: 100px;
+	}
+*/
+}
+
+@media screen and (max-width: 650px){
+	header {
+		height: 80px;
+	}
+
+	div.logo {
+		width: 80%;
+	}
+
+	div.logo_2 {
+		width: 15%;
+	}
+
+	.contacts a,
+	.contacts span {
+		display: none;
+	}
+
+	img.truck_650 {
+		width: 100%;
+	}
+
+	img.truck {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 651px){
+		img.truck_650 {
+		display: none;
+	}
+}
