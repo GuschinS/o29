@@ -1,9 +1,9 @@
 @font-face {
 	font-family: 'Etelka Wide Light Pro';
-	src: url('EtelkaWideLightPro.eot');
-	src: url('EtelkaWideLightPro.eot?#iefix') format('embedded-opentype'),
-	url('EtelkaWideLightPro.woff') format('woff'),
-	url('EtelkaWideLightPro.ttf') format('truetype');
+	src: url('/fonts/EtelkaWideLightPro.eot');
+	src: url('/fonts/EtelkaWideLightPro.eot?#iefix') format('embedded-opentype'),
+	url('/fonts/EtelkaWideLightPro.woff') format('woff'),
+	url('/fonts/EtelkaWideLightPro.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -20,7 +20,7 @@ body {
 	font-family: 'Etelka Wide Light Pro';
 	font-size: 12px;
 	color: #424242;
-	max-width: 1200px;
+	max-width: 1300px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -156,16 +156,10 @@ i.fa.fa-envelope-o {
 .how_it_works,
 .tachograph,
 .contact,
-.dopog {
+.dopog,
+.orders {
+	margin: 3%;
 	width: 95%;
-}
-
-.about,
-.how_it_works,
-.tachograph,
-.contact,
-.dopog {
-	margin-left: 3%;
 }
 
 .message {
@@ -184,7 +178,6 @@ button.doc_tacho {
 	color: white;
 	background-color: rgba(251, 70, 20, 1);
 	font-size: 1.5em;
-	/*	text-transform: uppercase;*/
 	border-radius: 0.1em;
 	border: none;
 }
@@ -209,26 +202,27 @@ button.doc_tacho:hover {
 	width: 100%;
 }
 
+section p {
+	font-size: 18px;
+	margin: 10px;
+}
+
 #manager,
 #card,
 #tacho,
 #kamaz,
 #abs,
-#akb,
-#speed {
+#akb {
 	display: flex;
 	padding: 2%;
 	width: 50%;
 }
 
-ul.opis_tacho {
-	padding-top: 2em;
+#speed {
+	display: flex;
+	padding: 2%;
+	width: 20%;
 }
-
-ul.opis_tacho li {
-	padding-top: 1em;
-}
-
 
 a.order {
 	text-decoration: none;
@@ -242,6 +236,7 @@ a.order {
 
 a.link {
 	text-decoration: none;
+	font-weight: bold;
 	color: rgba(0, 40, 85, 1);
 }
 
@@ -273,28 +268,59 @@ button.doc_tacho:hover {
 
 button.doc_tacho {
 	width: 300px;
-	/*	margin: 5% 10%;*/
 }
 
 .mapa {
-	padding-bottom: 10px;
+	width: 98%;
 }
 
 footer {
+	display: flex;
+	flex-wrap: wrap;
 	flex: 0 0 auto;
 	width: 100%;
-	max-width: 1200px;
-	height: 100px;
+	max-width: 1300px;
+	height: 170px;
 	background-color: rgba(0, 40, 85, 1)
+}
+
+.social {
+	width: 15%;
 }
 
 
 .fa.fa-facebook-square {
 	color: white;
 	font-size: 2em;
-	margin: 1em 0.5em 1em 1em;
+	margin: 1em 0.5em 0;
 }
 
 .fa.fa-vk {
 	font-size: 2.5em;
+	margin: 0 0.2em;
+}
+
+.address,
+.address a {
+	color: #fff;
+}
+
+.address {
+	width: 80%;
+	margin-top: 1%;
+	padding: 5px 0;
+	border-top: solid #fb4614;
+	text-align: right;
+}
+
+.address p {
+	margin: 1em;
+}
+
+.rr {
+	width: 100%;
+}
+
+.rr p {
+	margin: 0
 }
