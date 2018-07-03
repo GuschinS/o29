@@ -1,9 +1,9 @@
 @font-face {
 	font-family: 'Etelka Wide Light Pro';
-	src: url('/fonts/EtelkaWideLightPro.eot');
-	src: url('/fonts/EtelkaWideLightPro.eot?#iefix') format('embedded-opentype'),
-	url('/fonts/EtelkaWideLightPro.woff') format('woff'),
-	url('/fonts/EtelkaWideLightPro.ttf') format('truetype');
+	src: url('../fonts/EtelkaWideLightPro.eot');
+	src: url('../fonts/EtelkaWideLightPro.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/EtelkaWideLightPro.woff') format('woff'),
+	url('../fonts/EtelkaWideLightPro.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
