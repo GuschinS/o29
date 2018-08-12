@@ -2,13 +2,24 @@
 	display: none;
 }
 
-@media screen and (min-width: 881px) {
+@media screen and (min-width: 1551px) {
+	div.message {
+		left: 15%;
+		top: 20%;
+	}
+}
+
+@media screen and (max-width: 1550px) {
 	div.message {
 		position: absolute;
-		left: 100px;
-		top: 200px;
+		left: 10%;
+		top: 20%;
 	}
-	img.logo_m {
+
+}
+
+@media screen and (min-width: 881px){
+    	img.logo_m {
 		display: none;
 	}
 }
@@ -143,6 +154,10 @@
 }
 
 @media screen and (max-width: 385px) {
+    	div.message {
+		left: 5%;
+		top: 10%;
+	}
 	img.oo {
 		width: 80%;
 	}
