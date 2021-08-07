@@ -209,7 +209,8 @@ button.doc_tacho:hover {
     width: 90%;
 }
 
-.youtube iframe {
+.youtube img {
+	height: 100%;
 	width: 100%;
 }
 
