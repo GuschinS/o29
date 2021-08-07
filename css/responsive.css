@@ -4,8 +4,8 @@
 
 @media screen and (min-width: 1551px) {
 	div.message {
-		left: 15%;
-		top: 20%;
+		left: 20%;
+		top: 30%;
 	}
 }
 
@@ -28,6 +28,12 @@
 	img.logo_2,
 	img.logo {
 		display: none;
+	}
+
+	div.message {
+		position: absolute;
+		left: 5%;
+		top: 10%;
 	}
 
 	.nav {
@@ -156,7 +162,7 @@
 @media screen and (max-width: 385px) {
     	div.message {
 		left: 5%;
-		top: 15%;
+		top: 10%;
 	}
 	img.oo {
 		width: 80%;
