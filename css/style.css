@@ -198,6 +198,17 @@ button.doc_tacho:hover {
 
 }
 
+.program {
+	margin-top: 10%;
+	display: flex;
+    flex-wrap: nowrap;
+}
+
+.program img {
+	height: 90%;
+    width: 90%;
+}
+
 .youtube iframe {
 	width: 100%;
 }
